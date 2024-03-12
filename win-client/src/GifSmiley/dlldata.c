@@ -20,11 +20,13 @@ extern "C"   {
 #endif
 
 EXTERN_PROXY_FILE( vc120 )
+EXTERN_PROXY_FILE( vc140 )
 
 
 PROXYFILE_LIST_START
 /* Start of list */
   REFERENCE_PROXY_FILE( vc120 ),
+  REFERENCE_PROXY_FILE( vc140 ),
 /* End of list */
 PROXYFILE_LIST_END
 

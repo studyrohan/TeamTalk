@@ -39,8 +39,8 @@ template<> struct hash<std::string> {
 };
 }
 #else
-#include <hash_map>
-using namespace stdext;
+#include <unordered_map>
+using namespace std;
 #endif
 #ifdef ANDROID
 #include <android/log.h>

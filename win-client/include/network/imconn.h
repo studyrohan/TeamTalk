@@ -12,6 +12,7 @@
 #include "UtilPdu.h"
 #include <map>
 #include <string>
+#include <unordered_map>
 /******************************************************************************/
 
 #define SERVER_HEARTBEAT_INTERVAL	5000
@@ -22,7 +23,8 @@
 #define READ_BUF_SIZE	1024 * 128
 
 class CImConn;
-typedef hash_map<net_handle_t, CImConn*>		ConnMap_t;
+
+typedef unordered_map<net_handle_t, CImConn*>		ConnMap_t;
 
 struct ITcpSocketCallback
 {

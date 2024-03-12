@@ -10,3 +10,11 @@ TeamTalk是一款蘑菇街开源的企业内部即时通讯软件，目前支持
 另外一款由我自主开发的开源 IM —— Flamingo：
 
 https://github.com/balloonwj/flamingo
+
+
+
+
+
+
+
+https://blog.csdn.net/qtstar/article/details/54732581
